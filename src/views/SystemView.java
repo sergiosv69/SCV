@@ -143,7 +143,40 @@ public class SystemView extends javax.swing.JFrame {
         jLabel27 = new javax.swing.JLabel();
         txt_search_employee = new javax.swing.JTextField();
         jPanel8 = new javax.swing.JPanel();
+        jPanel22 = new javax.swing.JPanel();
+        jPanel23 = new javax.swing.JPanel();
+        jLabel46 = new javax.swing.JLabel();
+        jLabel47 = new javax.swing.JLabel();
+        jLabel48 = new javax.swing.JLabel();
+        jLabel49 = new javax.swing.JLabel();
+        txt_employee_id2 = new javax.swing.JTextField();
+        txt_employee_fullname2 = new javax.swing.JTextField();
+        txt_employee_username2 = new javax.swing.JTextField();
+        jLabel50 = new javax.swing.JLabel();
+        jLabel51 = new javax.swing.JLabel();
+        jLabel52 = new javax.swing.JLabel();
+        jLabel53 = new javax.swing.JLabel();
+        txt_employee_address2 = new javax.swing.JTextField();
+        txt_employee_telephone2 = new javax.swing.JTextField();
+        txt_employee_password2 = new javax.swing.JTextField();
+        btn_register_employee2 = new javax.swing.JButton();
+        btn_update_employee2 = new javax.swing.JButton();
+        btn_delete_employee2 = new javax.swing.JButton();
+        btn_cancel_employee2 = new javax.swing.JButton();
+        txt_employee_email2 = new javax.swing.JTextField();
+        txt_employee_username3 = new javax.swing.JTextField();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        employees_table2 = new javax.swing.JTable();
+        jLabel29 = new javax.swing.JLabel();
+        txt_search_employee2 = new javax.swing.JTextField();
         jPanel9 = new javax.swing.JPanel();
+        jPanel24 = new javax.swing.JPanel();
+        jPanel25 = new javax.swing.JPanel();
+        btn_register_employee3 = new javax.swing.JButton();
+        btn_register_employee4 = new javax.swing.JButton();
+        btn_register_employee5 = new javax.swing.JButton();
+        btn_register_employee6 = new javax.swing.JButton();
+        btn_register_employee7 = new javax.swing.JButton();
         Menureportes = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         jScrollPane4 = new javax.swing.JScrollPane();
@@ -1010,31 +1043,220 @@ public class SystemView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Empleados", jPanel7);
 
+        jPanel22.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel22.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel23.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Proveedores", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
+        jPanel23.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel46.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel46.setText("Identificación:");
+        jPanel23.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 58, -1, -1));
+
+        jLabel47.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel47.setText("Razon Social");
+        jPanel23.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 119, -1, -1));
+
+        jLabel48.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel48.setText("Nombre de usuario:");
+        jPanel23.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 180, -1, -1));
+
+        jLabel49.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel49.setText("Ruc:");
+        jPanel23.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 242, -1, -1));
+        jPanel23.add(txt_employee_id2, new org.netbeans.lib.awtextra.AbsoluteConstraints(176, 52, 165, 30));
+
+        txt_employee_fullname2.setEditable(false);
+        jPanel23.add(txt_employee_fullname2, new org.netbeans.lib.awtextra.AbsoluteConstraints(179, 113, 165, 30));
+        jPanel23.add(txt_employee_username2, new org.netbeans.lib.awtextra.AbsoluteConstraints(181, 174, 165, 30));
+
+        jLabel50.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel50.setText("Teléfono:");
+        jPanel23.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(429, 119, -1, -1));
+
+        jLabel51.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel51.setText("Dirección:");
+        jPanel23.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(429, 58, -1, -1));
+
+        jLabel52.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel52.setText("Correo:");
+        jPanel23.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(424, 180, -1, -1));
+
+        jLabel53.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel53.setText("Contraseña:");
+        jPanel23.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(424, 242, -1, -1));
+        jPanel23.add(txt_employee_address2, new org.netbeans.lib.awtextra.AbsoluteConstraints(519, 52, 165, 30));
+
+        txt_employee_telephone2.setEditable(false);
+        jPanel23.add(txt_employee_telephone2, new org.netbeans.lib.awtextra.AbsoluteConstraints(519, 113, 165, 30));
+
+        txt_employee_password2.setEditable(false);
+        jPanel23.add(txt_employee_password2, new org.netbeans.lib.awtextra.AbsoluteConstraints(519, 236, 165, 30));
+
+        btn_register_employee2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btn_register_employee2.setText("Registrar");
+        btn_register_employee2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_register_employee2ActionPerformed(evt);
+            }
+        });
+        jPanel23.add(btn_register_employee2, new org.netbeans.lib.awtextra.AbsoluteConstraints(768, 51, 110, 30));
+
+        btn_update_employee2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btn_update_employee2.setText("Modificar");
+        jPanel23.add(btn_update_employee2, new org.netbeans.lib.awtextra.AbsoluteConstraints(768, 112, 110, 30));
+
+        btn_delete_employee2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btn_delete_employee2.setText("Eliminar");
+        jPanel23.add(btn_delete_employee2, new org.netbeans.lib.awtextra.AbsoluteConstraints(768, 173, 110, 30));
+
+        btn_cancel_employee2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btn_cancel_employee2.setText("Cancelar");
+        jPanel23.add(btn_cancel_employee2, new org.netbeans.lib.awtextra.AbsoluteConstraints(768, 235, 93, 30));
+
+        txt_employee_email2.setEditable(false);
+        jPanel23.add(txt_employee_email2, new org.netbeans.lib.awtextra.AbsoluteConstraints(519, 174, 165, 30));
+        jPanel23.add(txt_employee_username3, new org.netbeans.lib.awtextra.AbsoluteConstraints(181, 236, 237, 30));
+
+        jPanel22.add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 920, 310));
+
+        employees_table2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Identificación", "Nombre ", "Usuario", "Dirección", "Teléfono", "Correo", "Rol"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane7.setViewportView(employees_table2);
+
+        jPanel22.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 410, 930, 100));
+
+        jLabel29.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel29.setText("Buscar:");
+        jPanel22.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 370, -1, -1));
+
+        txt_search_employee2.setToolTipText("");
+        jPanel22.add(txt_search_employee2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 360, 160, 30));
+
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1005, Short.MAX_VALUE)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, 1005, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 5, Short.MAX_VALUE))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 552, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, 552, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jTabbedPane1.addTab("tab5", jPanel8);
+        jTabbedPane1.addTab("Proveedores", jPanel8);
+
+        jPanel24.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel24.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel25.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Categorias", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
+
+        btn_register_employee3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btn_register_employee3.setText("COMPRAS");
+        btn_register_employee3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_register_employee3ActionPerformed(evt);
+            }
+        });
+
+        btn_register_employee4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btn_register_employee4.setText("CATEGORIAS");
+        btn_register_employee4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_register_employee4ActionPerformed(evt);
+            }
+        });
+
+        btn_register_employee5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btn_register_employee5.setText("PRODUCTOS");
+        btn_register_employee5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_register_employee5ActionPerformed(evt);
+            }
+        });
+
+        btn_register_employee6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btn_register_employee6.setText("CLIENTES");
+        btn_register_employee6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_register_employee6ActionPerformed(evt);
+            }
+        });
+
+        btn_register_employee7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btn_register_employee7.setText("PROVEEDORES");
+        btn_register_employee7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_register_employee7ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel25Layout = new javax.swing.GroupLayout(jPanel25);
+        jPanel25.setLayout(jPanel25Layout);
+        jPanel25Layout.setHorizontalGroup(
+            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel25Layout.createSequentialGroup()
+                .addGap(24, 24, 24)
+                .addComponent(btn_register_employee5, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addComponent(btn_register_employee3, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30)
+                .addComponent(btn_register_employee6, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
+                .addComponent(btn_register_employee7, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(31, 31, 31)
+                .addComponent(btn_register_employee4, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel25Layout.setVerticalGroup(
+            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel25Layout.createSequentialGroup()
+                .addGap(65, 65, 65)
+                .addGroup(jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btn_register_employee4, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_register_employee5, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_register_employee6, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_register_employee3, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_register_employee7, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(164, Short.MAX_VALUE))
+        );
+
+        jPanel24.add(jPanel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 920, 310));
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1005, Short.MAX_VALUE)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addComponent(jPanel24, javax.swing.GroupLayout.PREFERRED_SIZE, 1005, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 5, Short.MAX_VALUE))
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 552, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jPanel24, javax.swing.GroupLayout.PREFERRED_SIZE, 552, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jTabbedPane1.addTab("tab6", jPanel9);
+        jTabbedPane1.addTab("Categorias", jPanel9);
 
         Menureportes.setBackground(new java.awt.Color(204, 204, 204));
         Menureportes.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
@@ -1092,6 +1314,30 @@ public class SystemView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_add_product_to_buyActionPerformed
 
+    private void btn_register_employee2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_register_employee2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_register_employee2ActionPerformed
+
+    private void btn_register_employee3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_register_employee3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_register_employee3ActionPerformed
+
+    private void btn_register_employee4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_register_employee4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_register_employee4ActionPerformed
+
+    private void btn_register_employee5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_register_employee5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_register_employee5ActionPerformed
+
+    private void btn_register_employee6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_register_employee6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_register_employee6ActionPerformed
+
+    private void btn_register_employee7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_register_employee7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_register_employee7ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1133,9 +1379,11 @@ public class SystemView extends javax.swing.JFrame {
     private javax.swing.JButton btn_add_product_to_buy;
     public javax.swing.JButton btn_calcel_product;
     private javax.swing.JButton btn_cancel_employee;
+    private javax.swing.JButton btn_cancel_employee2;
     private javax.swing.JButton btn_confirm_purchase;
     private javax.swing.JButton btn_confirm_purchase1;
     private javax.swing.JButton btn_delete_employee;
+    private javax.swing.JButton btn_delete_employee2;
     public javax.swing.JButton btn_delete_product;
     private javax.swing.JButton btn_logout;
     private javax.swing.JButton btn_new_purchase;
@@ -1143,16 +1391,24 @@ public class SystemView extends javax.swing.JFrame {
     private javax.swing.JButton btn_photo;
     private javax.swing.JButton btn_register_customer;
     private javax.swing.JButton btn_register_employee;
+    private javax.swing.JButton btn_register_employee2;
+    private javax.swing.JButton btn_register_employee3;
+    private javax.swing.JButton btn_register_employee4;
+    private javax.swing.JButton btn_register_employee5;
+    private javax.swing.JButton btn_register_employee6;
+    private javax.swing.JButton btn_register_employee7;
     public javax.swing.JButton btn_register_product;
     private javax.swing.JButton btn_remove_purchase;
     private javax.swing.JButton btn_remove_purchase1;
     private javax.swing.JButton btn_update_employee;
+    private javax.swing.JButton btn_update_employee2;
     public javax.swing.JButton btn_update_product;
     public javax.swing.JComboBox<Object> cmb_product_category;
     private javax.swing.JComboBox<String> cmb_purchase_supplier;
     private javax.swing.JComboBox<String> cmb_rol;
     private javax.swing.JTable customers_table;
     private javax.swing.JTable employees_table;
+    private javax.swing.JTable employees_table2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1172,6 +1428,7 @@ public class SystemView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
@@ -1182,7 +1439,15 @@ public class SystemView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
@@ -1205,6 +1470,10 @@ public class SystemView extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel24;
+    private javax.swing.JPanel jPanel25;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
@@ -1225,6 +1494,7 @@ public class SystemView extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JTabbedPane jTabbedPane1;
     public javax.swing.JTable products_table;
     private javax.swing.JTable purchases_table;
@@ -1235,12 +1505,20 @@ public class SystemView extends javax.swing.JFrame {
     private javax.swing.JTextField txt_customer_id;
     private javax.swing.JTextField txt_customer_telephone;
     private javax.swing.JTextField txt_employee_address;
+    private javax.swing.JTextField txt_employee_address2;
     private javax.swing.JTextField txt_employee_email;
+    private javax.swing.JTextField txt_employee_email2;
     private javax.swing.JTextField txt_employee_fullname;
+    private javax.swing.JTextField txt_employee_fullname2;
     private javax.swing.JTextField txt_employee_id;
+    private javax.swing.JTextField txt_employee_id2;
     private javax.swing.JTextField txt_employee_password;
+    private javax.swing.JTextField txt_employee_password2;
     private javax.swing.JTextField txt_employee_telephone;
+    private javax.swing.JTextField txt_employee_telephone2;
     private javax.swing.JTextField txt_employee_username;
+    private javax.swing.JTextField txt_employee_username2;
+    private javax.swing.JTextField txt_employee_username3;
     public javax.swing.JTextField txt_product_code;
     public javax.swing.JTextField txt_product_description;
     public javax.swing.JTextField txt_product_id;
@@ -1255,6 +1533,7 @@ public class SystemView extends javax.swing.JFrame {
     private javax.swing.JTextField txt_purchase_total_to_pay;
     private javax.swing.JTextField txt_search_customer;
     private javax.swing.JTextField txt_search_employee;
+    private javax.swing.JTextField txt_search_employee2;
     public javax.swing.JTextField txt_search_product;
     // End of variables declaration//GEN-END:variables
 }
