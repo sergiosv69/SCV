@@ -98,8 +98,12 @@ public class SystemView extends javax.swing.JFrame {
         txt_search_employee = new javax.swing.JTextField();
         jPanel8 = new javax.swing.JPanel();
         jPanel9 = new javax.swing.JPanel();
-        jPanel10 = new javax.swing.JPanel();
-        jPanel11 = new javax.swing.JPanel();
+        Menureportes = new javax.swing.JPanel();
+        jLabel21 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        tablecompras = new javax.swing.JTable();
+        Menuconfiguracion = new javax.swing.JPanel();
+        jLabel24 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -679,31 +683,44 @@ public class SystemView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("tab6", jPanel9);
 
-        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
-        jPanel10.setLayout(jPanel10Layout);
-        jPanel10Layout.setHorizontalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1005, Short.MAX_VALUE)
-        );
-        jPanel10Layout.setVerticalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 552, Short.MAX_VALUE)
-        );
+        Menureportes.setBackground(new java.awt.Color(204, 204, 204));
+        Menureportes.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        Menureportes.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTabbedPane1.addTab("tab7", jPanel10);
+        jLabel21.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel21.setText("COMPRAS REALIZADAS");
+        Menureportes.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 30, 280, 20));
 
-        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
-        jPanel11.setLayout(jPanel11Layout);
-        jPanel11Layout.setHorizontalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1005, Short.MAX_VALUE)
-        );
-        jPanel11Layout.setVerticalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 552, Short.MAX_VALUE)
-        );
+        tablecompras.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
 
-        jTabbedPane1.addTab("tab8", jPanel11);
+            },
+            new String [] {
+                "Factura", "Proveedor", "Total", "Fecha"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane4.setViewportView(tablecompras);
+
+        Menureportes.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 740, 180));
+
+        jTabbedPane1.addTab("Reportes", Menureportes);
+
+        Menuconfiguracion.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel24.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel24.setText("Acerca de");
+        Menuconfiguracion.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 70, -1));
+
+        jTabbedPane1.addTab("Configuración", Menuconfiguracion);
 
         getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, 1010, 580));
 
@@ -754,6 +771,8 @@ public class SystemView extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel Menuconfiguracion;
+    private javax.swing.JPanel Menureportes;
     private javax.swing.JButton btn_cancel_employee;
     private javax.swing.JButton btn_confirm_purchase1;
     private javax.swing.JButton btn_delete_employee;
@@ -772,8 +791,10 @@ public class SystemView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel30;
@@ -793,8 +814,6 @@ public class SystemView extends javax.swing.JFrame {
     public javax.swing.JLabel jLabelSettings;
     public javax.swing.JLabel jLabelSuppliers;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel18;
@@ -816,8 +835,10 @@ public class SystemView extends javax.swing.JFrame {
     public javax.swing.JPanel jPanelSettings;
     public javax.swing.JPanel jPanelSuppliers;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTable tablecompras;
     private javax.swing.JTextField txt_customer_address;
     private javax.swing.JTextField txt_customer_email;
     private javax.swing.JTextField txt_customer_fullname;
