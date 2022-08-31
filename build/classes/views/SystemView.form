@@ -64,7 +64,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jLabelProducts" alignment="0" pref="35" max="32767" attributes="0"/>
+                  <Component id="jLabelProducts" alignment="0" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -78,7 +78,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/box1.png"/>
+                  <Image iconType="3" name="/images/producto.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Productos"/>
               </Properties>
@@ -125,7 +125,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/purchases1.png"/>
+                  <Image iconType="3" name="/images/ventas.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Compras"/>
               </Properties>
@@ -158,7 +158,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jLabelCustomers" alignment="1" pref="35" max="32767" attributes="0"/>
+                  <Component id="jLabelCustomers" alignment="1" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -172,7 +172,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/customers.png"/>
+                  <Image iconType="3" name="/images/clientes.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Clientes"/>
               </Properties>
@@ -205,7 +205,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jLabelEmployees" alignment="0" pref="35" max="32767" attributes="0"/>
+                  <Component id="jLabelEmployees" alignment="0" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -219,7 +219,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/employees.png"/>
+                  <Image iconType="3" name="/images/empleados.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Empleados"/>
               </Properties>
@@ -252,7 +252,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jLabelSuppliers" alignment="0" pref="35" max="32767" attributes="0"/>
+                  <Component id="jLabelSuppliers" alignment="0" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -266,7 +266,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/suppliers.png"/>
+                  <Image iconType="3" name="/images/proveedores.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Proveedores"/>
               </Properties>
@@ -299,7 +299,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jLabelCategories" alignment="0" pref="35" max="32767" attributes="0"/>
+                  <Component id="jLabelCategories" alignment="0" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -313,7 +313,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/categories.png"/>
+                  <Image iconType="3" name="/images/categorias.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Categorias"/>
               </Properties>
@@ -346,7 +346,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jLabelReports" alignment="0" pref="35" max="32767" attributes="0"/>
+                  <Component id="jLabelReports" alignment="0" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -360,7 +360,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/reports.png"/>
+                  <Image iconType="3" name="/images/reporte.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Reportes"/>
               </Properties>
@@ -407,7 +407,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/settings.png"/>
+                  <Image iconType="3" name="/images/configuraciones.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Configuraciones"/>
               </Properties>
@@ -439,7 +439,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/images/mecanica.png"/>
+              <Image iconType="3" name="/images/mecanicomenu.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -485,12 +485,12 @@
         <Component class="javax.swing.JButton" name="btn_photo">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/images/man.png"/>
+              <Image iconType="3" name="/images/mecanico.png"/>
             </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="630" y="20" width="80" height="65"/>
+              <AbsoluteConstraints x="630" y="10" width="80" height="80"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -1934,7 +1934,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="jPanel22" min="-2" pref="1005" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="5" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -2284,7 +2284,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="jPanel24" min="-2" pref="1005" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="5" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
