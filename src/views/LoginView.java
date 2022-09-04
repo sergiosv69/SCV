@@ -5,7 +5,7 @@ public class LoginView extends javax.swing.JFrame {
    
     public LoginView() {
         initComponents();
-        setSize(930,415);
+        setSize(930,450);
         setResizable(false);
         setTitle("Ingresar al sistema");
         setLocationRelativeTo(null);
@@ -53,7 +53,7 @@ public class LoginView extends javax.swing.JFrame {
 
         btn_enter.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btn_enter.setText("Ingresar");
-        btn_enter.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btn_enter.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btn_enter.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_enterActionPerformed(evt);
@@ -63,20 +63,20 @@ public class LoginView extends javax.swing.JFrame {
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Wallpaper.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mecanica2.png"))); // NOI18N
+        Wallpaper.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/crosland.png"))); // NOI18N
         jPanel2.add(Wallpaper, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 410));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 930, Short.MAX_VALUE)
+            .addGap(0, 895, Short.MAX_VALUE)
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, 0)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 490, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 414, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 474, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(0, 0, Short.MAX_VALUE)))
         );
         layout.setVerticalGroup(
