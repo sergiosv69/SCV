@@ -28,7 +28,7 @@ public class PurchasesDao {
             pst.setInt(2, employee_id);
             pst.setDouble(3, total);
             pst.setTimestamp(4, datetime);
-            pst.execute(); //ejecutamos la consulta
+            pst.execute();  //ejecutamos la consulta
             return true;
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "Error al retornar la compra");

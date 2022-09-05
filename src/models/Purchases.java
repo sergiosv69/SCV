@@ -10,7 +10,7 @@ public class Purchases {
     private double purchase_subtotal;
     private double total;
     private String created;
-    //Var para almacenar el nombre del proveedor y comprador
+     //Var para almacenar el nombre del proveedor y comprador
     private String supplier_name_product;
     private String purcharser;
 
