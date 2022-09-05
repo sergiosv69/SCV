@@ -3,20 +3,20 @@ package models;
 
 public class Employees {
     private int id;
-    private int full_name;
-    private int username;
-    private int address;
-    private int telephone;
-    private int email;
-    private int password;
-    private int rol;
-    private int created;
-    private int updated;
+    private String full_name;
+    private String username;
+    private String address;
+    private String telephone;
+    private String email;
+    private String password;
+    private String rol;
+    private String created;
+    private String updated;
 
     public Employees() {
     }
 
-    public Employees(int id, int full_name, int username, int address, int telephone, int email, int password, int rol, int created, int updated) {
+    public Employees(int id, String full_name, String username, String address, String telephone, String email, String password, String rol, String created, String updated) {
         this.id = id;
         this.full_name = full_name;
         this.username = username;
@@ -37,76 +37,76 @@ public class Employees {
         this.id = id;
     }
 
-    public int getFull_name() {
+    public String getFull_name() {
         return full_name;
     }
 
-    public void setFull_name(int full_name) {
+    public void setFull_name(String full_name) {
         this.full_name = full_name;
     }
 
-    public int getUsername() {
+    public String getUsername() {
         return username;
     }
 
-    public void setUsername(int username) {
+    public void setUsername(String username) {
         this.username = username;
     }
 
-    public int getAddress() {
+    public String getAddress() {
         return address;
     }
 
-    public void setAddress(int address) {
+    public void setAddress(String address) {
         this.address = address;
     }
 
-    public int getTelephone() {
+    public String getTelephone() {
         return telephone;
     }
 
-    public void setTelephone(int telephone) {
+    public void setTelephone(String telephone) {
         this.telephone = telephone;
     }
 
-    public int getEmail() {
+    public String getEmail() {
         return email;
     }
 
-    public void setEmail(int email) {
+    public void setEmail(String email) {
         this.email = email;
     }
 
-    public int getPassword() {
+    public String getPassword() {
         return password;
     }
 
-    public void setPassword(int password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 
-    public int getRol() {
+    public String getRol() {
         return rol;
     }
 
-    public void setRol(int rol) {
+    public void setRol(String rol) {
         this.rol = rol;
     }
 
-    public int getCreated() {
+    public String getCreated() {
         return created;
     }
 
-    public void setCreated(int created) {
+    public void setCreated(String created) {
         this.created = created;
     }
 
-    public int getUpdated() {
+    public String getUpdated() {
         return updated;
     }
 
-    public void setUpdated(int updated) {
+    public void setUpdated(String updated) {
         this.updated = updated;
     }
-    
+
 }
